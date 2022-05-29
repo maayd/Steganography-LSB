@@ -1,5 +1,4 @@
 # Steganography
-Hide 
 Pillow python library is needed to run the code!
 
 In order to use the code, make sure to change the "filepath" variable to a file you would like to hide (by default the code will attempt to hide a pdf file).
