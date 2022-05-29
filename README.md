@@ -1,7 +1,7 @@
 # Steganography
 Pillow python library is needed to run the code!
 
-This python script encodes any chosen file inside an image/collection of images without
+This python script encodes any chosen file inside an image/collection of images without changing how the image/images look like, then it decodes the data from the image/images and reconstructs the original file back.
 
 In order to use the code, make sure to change the "filepath" variable to the file you would like to hide (by default the code will attempt to hide a sample pdf file).
 
