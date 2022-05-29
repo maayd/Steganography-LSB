@@ -1,4 +1,4 @@
-# Steganography using LSB method (Least Significant Bit).
+# Steganography using LSB method (Least Significant Bit)
 Pillow Python library is needed to run the code!
 
 This Python script encodes any chosen file inside an image/collection of images without changing how the image/images look like, then it decodes the data from the image/images and reconstructs the original file back.
