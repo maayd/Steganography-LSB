@@ -34,7 +34,7 @@ def decode(fileName):
         if (pixels[-1] % 2 != 0):
             return data
 def main():
-    filepath = "files/password13.png"
+    filepath = sys.argv[1]
     data = decode(filepath)
     file = open("decoded_secret.txt", "w")
     textdata = ''
