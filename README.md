@@ -1,6 +1,23 @@
 # Steganography using LSB method (Least Significant Bit)
 Pillow Python library is needed to run the code!
 
+
+### decode.py
+
+```bash
+pip install Pillow
+```
+
+and then to decode a secret from an image use the decode.py
+
+```bash
+python3 decode.py /path/to/file
+```
+
+
+
+### main.py
+
 This Python script encodes any chosen file inside an image/collection of images without changing how the image/images look like, then it decodes the data from the image/images and reconstructs the original file back.
 
 In order to use the code, make sure to change the "filepath" variable to the file you would like to hide (by default the code will attempt to hide a sample pdf file).

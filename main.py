@@ -127,12 +127,8 @@ def decode(fileName):
 def main():
     secret_message = []
 
-
-
     # use filepath to choose the file you want to hide inside the image/images.
     filepath = "files/quiz.pdf"
-
-
 
     with open(filepath, "rb") as f:
         byte = f.read(1)
@@ -142,7 +138,6 @@ def main():
 
     # use pics_dir to specify the folder with images to hide the data in (by default its a folder called pics in the same directory).
     pics_dir = "pics"
-
 
 
     pics_dir += "/*"
